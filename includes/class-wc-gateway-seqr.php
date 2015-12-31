@@ -53,7 +53,7 @@ class WC_SEQR_Payment_Gateway extends WC_Payment_Gateway
 
     function plugin_url()
     {
-        return untrailingslashit(plugins_url('woocommerce-seqr'));
+        return untrailingslashit(plugins_url('woocommerce-seqr-payment-gateway'));
     }
 
     function init_form_fields()
